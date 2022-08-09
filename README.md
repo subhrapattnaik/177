@@ -70,3 +70,21 @@ show the score when the user clicks
 on the submit button for a particular
 Mad Libs story.
 --------------------------------------------------------------------------------------
+Flask is a Python’s
+Framework to create APIs.
+
+
+we converted
+our HTML’s page into a Flask App.(boilerplate code)
+
+how to run flask apps
+1. Create a Virtual
+Environment.
+2. Activate the Virtual
+Environment.
+3. Install
+Modules/Dependenci
+es.
+4. Run the server.
+
+
