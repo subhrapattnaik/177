@@ -150,3 +150,14 @@ Next, we have a “static” folder. Inside
 this folder, we have our CSS,
 JavaScript files and Images that we
 are using in an assets folder
+
+
+
+Now Flask creates a URL endpoint of
+“/static” by default, which contains all
+the static data
+
+This is because Flask has “static” as
+a special folder we can create to hold
+our static data and we can access this
+data with the help of a URL.
