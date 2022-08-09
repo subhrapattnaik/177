@@ -100,3 +100,10 @@ python3.8 -m venv venv
 
 
 venv\Scripts\activate.bat
+
+pip install flask
+
+Finally, we can run the server -
+
+python app.py
+
