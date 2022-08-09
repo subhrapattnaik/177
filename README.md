@@ -35,3 +35,21 @@ images, JavaScript, etc.).
 
 The faster all steps are completed, the
 faster the web page will be loaded!
+------------------------------------------------------------------------------------------
+millions of people using the
+browser at the same time, how is this
+possible for Google to give such fast
+results?
+
+Well the Google Chrome browser is
+built on one of the very powerful
+
+technologies used in the web
+application, that is, AJAX.
+AJAX is Asynchronous JavaScript and
+XML.
+In simple terms, this technique helps
+to load/update the specific portion of
+the page, instead of loading the whole
+page again and again.
+
