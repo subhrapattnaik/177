@@ -161,3 +161,7 @@ This is because Flask has “static” as
 a special folder we can create to hold
 our static data and we can access this
 data with the help of a URL.
+
+
+You will see the image from the
+Group.png image in the browser -
