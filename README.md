@@ -238,4 +238,7 @@ request is successful; and
 ● error: a function after the
 request fails.
 
-  
+ g the url
+parameter: This will help us to
+call the API.
+
