@@ -114,6 +114,11 @@ browser, we can see our app:
 Here, we know that our main APIs and
 Flask App is in app.py.
 
+
+Flask
+has some special words reserved for
+folders that have special meaning
+
 Our .gitignore file contains the
 files/folders we want GitHub to ignore.
 What are the templates and static
