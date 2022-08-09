@@ -90,6 +90,7 @@ es.
 -------------------------------------
 First we will go to the project directory
 through terminal or command prompt.
+-----------------------------------------------------------------------------------------------------------------
 
 
 Then, we’ll create a virtual
@@ -109,3 +110,31 @@ python app.py
 
 If we go to localhost:5000 on the
 browser, we can see our app:
+-----------------------------------------------------------------------------
+Here, we know that our main APIs and
+Flask App is in app.py.
+
+Our .gitignore file contains the
+files/folders we want GitHub to ignore.
+What are the templates and static
+folders?
+
+“templates” folder is where Flask
+looks for HTML files when a function
+render_template is called.
+
+
+We can see here that we have created
+a route “/” where we are calling the
+render_template() function and
+passing “index.html” into it.
+What this means is that on the route
+localhost:5000/
+
+We are rendering a template
+“index.html” with a
+render_template() function.
+When the render_template() function
+is called, it looks for the HTML file only
+in a folder named templates like we
+have.
