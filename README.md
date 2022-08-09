@@ -242,3 +242,56 @@ request fails.
 parameter: This will help us to
 call the API.
 
+  Let’s take a look at the “app.py” file.
+  ------------------------------------------------
+Next, we have a dictionary in variable
+answer_dict in the following format:
+answer_dict = {
+story_id1: [answer1, answer2,...],
+story_id2: [answer1, answer2,...],
+...
+}
+Here, we have already mapped the
+expected answers for all the story IDs,
+where the story_id is the key and its
+value is the expected answers in
+order.
+
+  
+  We then created an API to render our
+HTML at the “/” url, 
+  
+  
+  Then we have our API on the
+“/post-answers” url. This API
+responds to a POST request.
+Since the user will be sending us the
+story_id and values, we are fetching
+that data.
+Since AJAX is going to send the data
+in JSON format, we are going to use
+request.json to get the values of
+story_id and values
+  
+  Next, based on the story_id that we
+receive, we get the answer there in the
+answer_dict and compare the values
+that user entered v/s what the
+expected answer should be.
+Here, one thing to note is that we are
+using the .lower() function while
+comparing the answers.
+.lower() converts them to lowercase
+before comparing, i.e., all letters of the
+word will be lowercase after that as the
+result. For example:
+  
+  And then if the user’s answer matches
+with the expected answer, we are
+increasing the score by 1.
+  
+  We are finally returning the result to
+the user.
+
+  
+  
