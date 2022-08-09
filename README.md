@@ -107,3 +107,5 @@ Finally, we can run the server -
 
 python app.py
 
+If we go to localhost:5000 on the
+browser, we can see our app:
