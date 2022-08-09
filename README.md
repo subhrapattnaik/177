@@ -53,3 +53,20 @@ to load/update the specific portion of
 the page, instead of loading the whole
 page again and again.
 
+
+______________________________________________________________________________________________________
+
+For example, in our Mad Libs game,
+when we click on the Submit button
+the result should be updated without
+reloading the page again!
+
+That means only the result section
+should be updated!
+
+lets learn
+how to use the jQuery ajax() method to
+show the score when the user clicks
+on the submit button for a particular
+Mad Libs story.
+--------------------------------------------------------------------------------------
