@@ -143,3 +143,10 @@ When the render_template() function
 is called, it looks for the HTML file only
 in a folder named templates like we
 have.
+==================================================================================
+
+
+Next, we have a “static” folder. Inside
+this folder, we have our CSS,
+JavaScript files and Images that we
+are using in an assets folder
