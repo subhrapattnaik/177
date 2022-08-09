@@ -165,3 +165,77 @@ data with the help of a URL.
 
 You will see the image from the
 Group.png image in the browser -
+
+
+-----------------------------------------------
+
+● “static” folder: We have our
+static assets and files
+
+● “templates” folder: Our HTML
+templates.
+
+● “app.py” file: We have our
+APIs.
+
+-------------------------------------------------------------
+
+To begin with, we are going to create a
+<div> tag showing the Mad Libs result
+on the page below the Word Bank.
+  
+  =======================================
+  But the “Result” is visible on the page
+all the time, even though we have not
+clicked on the “Submit” button.
+The result must be visible only after
+Submit is clicked.
+  
+  Let’s take “hidden” as our own class
+name and assign it to the row <div>
+and set its initial display property as
+none in the style sheet.
+
+  ==============================================================
+  
+  Ajax requests are similar to that!
+When we make a request to a server
+to get or post some data, conventional
+JavaScript methods redirect(sends
+requests) to the next route (or we can
+say next page) after the request is
+completed or the same page will be
+reloaded again.
+But using jQuery ajax() method for
+making server requests the result is
+updated on the same page without
+reloading the whole page again.
+
+  
+  There are many possible values for
+the name:value parameters in the
+ajax() method. We are going to use a
+few in our AJAX request:
+● url: URL of the page where we
+want to send the request;
+  
+● type: type of the request, GET
+or POST;
+  
+● data: actual data that needs to
+be sent to the server;
+  
+● dataType: datatype of the
+response;
+  
+● contentType: type of the
+content used while sending a
+request to the server;
+  
+● success: a function after the
+request is successful; and
+  
+● error: a function after the
+request fails.
+
+  
