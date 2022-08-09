@@ -87,4 +87,16 @@ Modules/Dependenci
 es.
 4. Run the server.
 
+-------------------------------------
+First we will go to the project directory
+through terminal or command prompt.
 
+
+Then, we’ll create a virtual
+environment first -
+
+
+python3.8 -m venv venv
+
+
+venv\Scripts\activate.bat
